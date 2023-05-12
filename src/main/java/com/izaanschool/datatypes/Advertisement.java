@@ -4,7 +4,14 @@ public class Advertisement {
 
     public static void main(String[] args) {
 
-        System.out.println("This is Nazrul");
-        System.out.println("I am Learning Java");
+        String title="IzaanSchool";
+        String descrition="AnItTeachingInstitutoion";
+        String targetAudience="everyone";
+        System.out.println("title=IzaanSchool\n"+"descrition=AnItTeachingInstitutoion\n"+"targetAudience=everyone\n");
+
+        boolean isSponsored=false;
+        boolean isFeatured=false;
+        System.out.println("Any Body Sponsored?:" + isSponsored);
+        System.out.println("any featured?:" + isFeatured);
     }
 }

@@ -1,4 +1,4 @@
 package com.izaanschool.datatypes;
 
-public class hello {
+public class Event {
 }
