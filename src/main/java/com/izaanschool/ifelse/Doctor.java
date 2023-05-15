@@ -4,7 +4,11 @@ public class Doctor {
 
     public static void main(String[] args) {
 
-        System.out.println("Hello");
+        String name="Stacy";
+        String specialization="Gestrology";
+        String contactInfo="1223337";
+
+       if (name=="Stacy"){System.out.println("She is my doctor");}
 
     }
 }

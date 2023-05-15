@@ -4,8 +4,13 @@ public class Fundraiser {
 
     public static void main(String[]args){
 
-        System.out.println("cause:charity for orphan");
-        System.out.println("goal:Buying food and cloths");
-        System.out.println("donations:$20000");
+
+        String cause="noble";
+        String goal="to raise 5000";
+        String donations="any amount";
+
+        if (cause=="noble"){System.out.println("May God help us");}
+
+
     }
 }

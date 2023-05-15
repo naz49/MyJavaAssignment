@@ -4,9 +4,12 @@ public class Event {
 
     public static void main(String[] args) {
 
-        System.out.println("Name");
-        System.out.println("date");
-        System.out.println("location");
+        String eventName="Eid Gala";
+        String date="june 20th";
+        String location="New york";
+
+        if (eventName=="Eid Gala"){System.out.println("Eid Mubarak");}
+
 
     }
 }

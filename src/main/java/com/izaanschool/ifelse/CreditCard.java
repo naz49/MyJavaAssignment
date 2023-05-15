@@ -5,11 +5,11 @@ public class CreditCard {
     public static void main(String[] args) {
 
 
-        String number="123456";
-        String expirationDate="may11/2023";
+        String number="1111";
+        String expirationDate="may11 2023";
         String cardHolderName="Nazrul";
 
-        System.out.println("Hello");
+        if (number=="1111"){System.out.println("yes, this is my number");}
 
 
     }

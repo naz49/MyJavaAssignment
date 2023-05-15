@@ -4,8 +4,15 @@ public class Advertisement
 {
     public static void main(String[] args) {
 
-        System.out.println("Title:Nazrul\n" +
-                "target audience:Students\n" +
-                "goals:Change the outlook\n");
+        String title ="the movie";
+        String targetAudience="Students";
+        String goals="Change the outlook of Students";
+
+        // Declare if Condition: using String -- if audience is student then print message"Students are the  targeted audience for this Advertisement"
+        if(targetAudience == "Students"){
+            // Code to execute if condition is true
+            System.out.println("Students are the  targeted audience for this Advertisement");
+        }
+
     }
 }

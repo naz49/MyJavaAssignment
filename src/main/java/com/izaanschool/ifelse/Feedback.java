@@ -3,9 +3,11 @@ package com.izaanschool.ifelse;
 public class Feedback {
     public static void main(String[] args) {
 
-        System.out.println("Author");
-        System.out.println("rating");
-        System.out.println("Comment");
+        String author="Jahidul";
+        int rating=9;
+        String comment="beautiful story";
+
+         if(rating==9){System.out.println("he is a good author");}
 
     }
 }

@@ -4,9 +4,11 @@ public class Expense {
 
     public static void main(String[] args) {
 
-        System.out.println("date");
-        System.out.println("amount");
-        System.out.println("category");
+        String date="May 13th";
+        int amount=450;
+        String category="Clothing";
+
+        if (amount==450){System.out.println("isnt it too expensive");}
 
     }
 }

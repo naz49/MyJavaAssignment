@@ -8,22 +8,16 @@ public class Address {
     public static void main(String[] args) {
 
         // Print Address
-        System.out.println("Name:Nazrul\n"+"Zip:11111\n"+"City: New york\n");
-
         String street="14461";
         String city="New york";
         String zipCode="11111";
+        System.out.println("street:14461\n"+"Zip:11111\n"+"City:New york\n");
+
         boolean hasApartment=false;
         boolean hasStreetname=true;
         System.out.println("Has Apartment:" + hasApartment);
         System.out.println("Has Street Name:" + hasStreetname);
 
-
-
-
-
-
     }
-
 
 }

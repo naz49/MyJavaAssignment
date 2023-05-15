@@ -4,9 +4,12 @@ public class Employee {
 
     public static void main(String[] args) {
 
-        System.out.println("Name");
-        System.out.println("designation");
-        System.out.println("salary");
+        String name="Tom";
+        String designation="Manager";
+        String donationDate="may13th";
+
+        if (name=="Tom"){System.out.println("Tom is a kind person");}
+
 
     }
 }
